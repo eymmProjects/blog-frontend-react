@@ -21,10 +21,10 @@
     "slick-carousel": "^1.8.1",
     "styled-components": "^5.2.3",
     "tailwindcss": "^2.1.1",
-    "twin.macro": "^2.3.3"
+    "twin.macro": "^3.4.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider next start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
